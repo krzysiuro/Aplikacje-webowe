@@ -1,0 +1,82 @@
+html {
+  background-color: #ddbeaa;
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+.main-main-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-article {
+  height: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.autor {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  color: crimson;
+}
+
+.text {
+  display: flex;
+  align-items: middle;
+}
+
+.table,
+.row,
+.column {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.el--1 {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+}
+.el--2 {
+  background-color: orangered;
+  height: 100px;
+  width: 100px;
+}
+.el--3 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+.el--4 {
+  background-color: goldenrod;
+  height: 100px;
+  width: 100px;
+}
+.el--5 {
+  background-color: palevioletred;
+  height: 100px;
+  width: 100px;
+}
+
+.container {
+  /* FLEXBOX */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
