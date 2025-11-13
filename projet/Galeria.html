@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body class="body">
+    <navbar class="navbar">
+      <a href="Home.html" class="logo"
+        ><img
+          src="wrss-wi-logo-white.png"
+          class="logo1"
+          alt="wrss_wi"
+          href="https://wrss.informatyka.agh.edu.pl"
+      /></a>
+      <div class="tekst navbartext">
+        <a class="tekst navbartext" href="Galeria.html"><b>Galeria</b></a>
+        <a class="tekst navbartext" href="Kontakt.html"><b>Kontakt</b></a>
+      </div>
+    </navbar>
+    <button class="first button WyjścieWGóry" onclick="myFunction()">Wyjśce w góry</button>
+    <div class="flex" id="WyjścieWGóryZdjęcia">
+      <img class="zdjecieGaleria" src="IMG_6807.jpg" />
+      <img class="zdjecieGaleria" src="IMG_6842.jpg" />
+      <img class="zdjecieGaleria" src="IMG_6865.jpg" />
+      <img class="zdjecieGaleria" src="IMG_6897-Enhanced-NR.jpg" />
+      <img class="zdjecieGaleria" src="IMG_6987.jpg" />
+      <img class="zdjecieGaleria" src="IMG_6993.jpg" />
+      <img class="zdjecieGaleria" src="IMG_6914.jpg" />
+      <img class="zdjecieGaleria" src="IMG_6922-Enhanced-NR.jpg" />
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("WyjścieWGóryZdjęcia");
+        if (x.style.display === "none") {
+          x.style.display = "flex";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script> 
+      <button class="button Integracja" onclick="myFunction1()">Integracja</button>
+      <div class="flex" id="IntegracjaZdjęcia">
+        <img class="zdjecieGaleria" src="zdjecia/BRZ03942.jpg" />
+      <img class="zdjecieGaleria" src="zdjecia/BRZ04162.jpg" />
+      <img class="zdjecieGaleria" src="zdjecia/BRZ04165.jpg" />
+      <img class="zdjecieGaleria" src="zdjecia/BRZ04319.jpg" />
+      </div>
+      <script>
+      function myFunction1() {
+        var x = document.getElementById("IntegracjaZdjęcia");
+        if (x.style.display === "none") {
+          x.style.display = "flex";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+        <button class="button DużoDobrejZabowy" onclick="myFunction2()">Dużo dobrej zabawy</button>
+      <div class="flex" id="DużoDobrejZabowyZdjęcia">
+        <img class="zdjecieGaleria" src="zdjecia/BRZ0933.jpg" />
+      <img class="zdjecieGaleria" src="zdjecia/BRZ03943.jpg" />
+      <img class="zdjecieGaleria" src="zdjecia/BRZ03966.jpg" />
+      </div>
+        <script>
+      function myFunction2() {
+        var x = document.getElementById("DużoDobrejZabowyZdjęcia");
+        if (x.style.display === "none") {
+          x.style.display = "flex";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+      <button class="button STP" onclick="myFunction3()">STP</button>
+      <div class="flex" id="STPZdjęcia">
+        <img class="zdjecieGaleria" src="zdjecia/BRZ03819.jpg" />
+      <img class="zdjecieGaleria" src="zdjecia/BRZ03821.jpg" />
+      <img class="zdjecieGaleria" src="zdjecia/BRZ03828.jpg" />
+      </div>
+      <script>
+      function myFunction3() {
+        var x = document.getElementById("STPZdjęcia");
+        if (x.style.display === "none") {
+          x.style.display = "flex";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+    </div>
+    <button class="button" onclick="myFunction4()">video</button>
+    <video id="video" class="flex video" controls muted><source src="zdjecia/VID_20250928_011040.mp4" type="video/mp4"> </video>
+    <script>
+      function myFunction4() {
+        var x = document.getElementById("video");
+        if (x.style.display === "none") {
+          x.style.display = "flex";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+    <div class="bottom"></div>
+    <footer class="footer">Krzysztof Rodzinka</footer>
+  </body>
+</html>

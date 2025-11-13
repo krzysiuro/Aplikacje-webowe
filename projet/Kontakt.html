@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="body center">
+    <navbar class="navbar">
+      <a href="Home.html" class="logo"
+        ><img
+          src="wrss-wi-logo-white.png"
+          class="logo1"
+          alt="wrss_wi"
+          href="https://wrss.informatyka.agh.edu.pl"
+      /></a>
+      <div class="tekst navbartext">
+        <a class="tekst navbartext" href="Galeria.html"><b>Galeria</b></a>
+        <a class="tekst navbartext" href="Kontakt.html"><b>Kontakt</b></a>
+      </div>
+    </navbar>
+    <form
+      action="mailto:twój_adres_poczty@domena"
+      method="post"
+      enctype="text/plain"
+      class="main-container center"
+    >
+      <div class="center">
+        <input name="E-mail" placeholder="wrsswi@samorzad.agh.edu.pl" />
+        <br />
+        <br />
+        <p>Z jakiego powodu z nami chcesz się skontaktować?</p>
+        <select name="Przyczyna kontaktu">
+          <option selected>Wybierz opcje......</option>
+          <option>Chce pojechać na WDI</option>
+          <option>Chce odwołać moje uczestnictwo w wyjeździe</option>
+          <option>Chce do was dołączyć</option>
+        </select>
+        <p>Wiadomość:</p>
+        <textarea
+          name="wiadomość"
+          cols="50"
+          rows="10"
+          placeholder="Wpisz Swoją wiadomość..."
+        ></textarea>
+        <br /><br /><br />
+        <input type="submit" value="Wyślij wiadomość" />
+        <input type="reset" value="Wyczyść dane" />
+      </div>
+    </form>
+</html>
